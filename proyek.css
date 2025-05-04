@@ -1,0 +1,108 @@
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #0e0e0e;
+      color: #ffffff;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(to right, #00ff99, #00cc66);
+      padding: 20px;
+      text-align: center;
+      position: relative;
+    }
+
+    header h1 {
+      color: #000;
+    }
+
+    /* Tombol menu (kiri atas) */
+    .menu-btn {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      background: #000;
+      border: none;
+      color: #00ff99;
+      font-size: 24px;
+      cursor: pointer;
+      padding: 5px 10px;
+      border-radius: 4px;
+    }
+
+    /* Sidebar kiri */
+    .sidebar {
+      position: fixed;
+      top: 0;
+      left: -250px;
+      width: 250px;
+      height: 100%;
+      background-color: #1a1a1a;
+      padding: 20px;
+      transition: left 0.3s ease;
+      z-index: 999;
+    }
+
+    .sidebar.open {
+      left: 0;
+    }
+
+    .sidebar h3 {
+      margin-bottom: 15px;
+      color: #00ff99;
+    }
+
+    .sidebar a {
+      display: block;
+      color: #fff;
+      text-decoration: none;
+      margin: 10px 0;
+    }
+
+    section {
+      padding: 20px;
+    }
+
+    .section-title {
+      color: #00ff99;
+      border-left: 4px solid #00ff99;
+      padding-left: 10px;
+      margin-bottom: 10px;
+      font-size: 1.5em;
+    }
+
+    .card {
+      background-color: #1c1c1c;
+      border-left: 4px solid #00ff99;
+      padding: 15px;
+      margin: 10px 0;
+      border-radius: 8px;
+    }
+
+    footer {
+      background-color: #111;
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9em;
+      color: #ccc;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 1.5em;
+      }
+
+      .section-title {
+        font-size: 1.2em;
+      }
+
+      .card {
+        font-size: 0.95em;
+      }
+    }

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link rel="stylesheet" type="text/css" href="proyek.css">
+  <title>Xyrooh</title>
+</head>
+<body>
+
+  <header>
+    <h1>PesonaXyro</h1>
+    <button class="menu-btn" onclick="toggleSidebar()">≡</button>
+  </header>
+
+  <div class="sidebar" id="sidebar">
+    <h3>Menu</h3>
+    <a href="index.html">|• Beranda</a>
+    <a href="sosmed.html">|• Sosmed</a>
+    <a href="https://wa.me/6285718212711">|• Kontak</a>
+  </div>
+
+  <section id="tentang">
+    <div class="section-title">Tentang Saya</div>
+    <p>Saya adalah siswa yang tertarik dengan dunia teknologi, khususnya dalam pengembangan web dan desain. Saya senang belajar hal baru dan membuat proyek yang bermanfaat.</p>
+  </section>
+
+  <section id="tujuan">
+    <div class="section-title">Tujuan</div>
+
+    <div class="card">
+      <h3>Tujuan Utama</h3>
+      <p>Ingin Menjadi Web Developer Dan Ingin Membangun Suatu Website Terbaik Di Dunia Dengan Semua Syntax Yang Ada.</p>
+    </div>
+
+    <div class="card">
+      <h3>Tujuan Akhir</h3>
+      <p>Ingin Mempelajari Semua Tentang Cara Mempertahankan Website. Jadi Tidak Hanya Membangun Website Tetapi Mempertahankannya Juga.</p>
+    </div>
+  </section>
+
+  <footer id="footer">
+    &copy; 2025 | Dibuat oleh Xyro
+  </footer>
+
+  <script>
+    function toggleSidebar() {
+      document.getElementById('sidebar').classList.toggle('open');
+    }
+  </script>
+
+</body>
+</html>

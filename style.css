@@ -1,0 +1,105 @@
+body {
+      margin: 0;
+      font-family: sans-serif;
+      background-color: #111;
+      color: #ddd;
+    }
+    header {
+      background: linear-gradient(to right, #00ff88, #00c47c);
+      padding: 2em;
+      text-align: center;
+      color: #000;
+    }
+    nav {
+      background: #000;
+      text-align: center;
+      padding: 0.5em 0;
+    }
+
+    nav a {
+      color: #00ff88;
+      margin: 0 1em;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 1.5em;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #00ff88;
+      border-left: 4px solid #00ff88;
+      padding-left: 0.5em;
+      margin-bottom: 0.5em;
+    }
+
+    .card {
+      background: #222;
+      padding: 1em;
+      border-left: 3px solid #00ff88;
+      border-radius: 8px;
+      margin-bottom: 1em;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 0.8em;
+      margin-bottom: 1em;
+      border: 1px solid #00ff88;
+      border-radius: 5px;
+      background: #1a1a1a;
+      color: #fff;
+    }
+
+    button {
+      padding: 0.7em 1.5em;
+      border: none;
+      background: #00ff88;
+      color: #000;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1em;
+      background: #000;
+      color: #888;
+      font-size: 0.9em;
+    }
+.typing-container {
+      border-right: 2px solid #00ff88;
+      white-space: nowrap;
+      overflow: hidden;
+      font-size: 1.5em;
+      width: 0;
+      animation: typing 4s steps(40, end) forwards, blink 0.7s infinite;
+    }
+
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 50% }
+    }
+
+    @keyframes blink {
+      0%, 100% { border-color: transparent }
+      50% { border-color: #00ff88 } 
+    }
+     .cta {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #00ff88;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+  }
+
+  .cta:hover {
+    background-color: #00cc6a;
+  }
